@@ -1,0 +1,853 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/parth\/Downloads\/cpufreqd-2.4.1\/missing --run aclocal-1.11$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AC_ONLINE	cpufreqd_acpi_ac.c	31;"	d	file:
+AC_TYPE	cpufreqd_acpi_ac.c	30;"	d	file:
+AMTAR	Makefile	/^AMTAR = ${SHELL} \/home\/parth\/Downloads\/cpufreqd-2.4.1\/missing --run tar$/;"	m
+AM_CFLAGS	Makefile	/^AM_CFLAGS = -W -Wall -Wshadow -W -Wpointer-arith \\$/;"	m
+APM_PROC_FILE	cpufreqd_apm.c	29;"	d	file:
+AR	Makefile	/^AR = ar$/;"	m
+ARG_MASK	cpufreqd_remote.h	43;"	d
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/parth\/Downloads\/cpufreqd-2.4.1\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/parth\/Downloads\/cpufreqd-2.4.1\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/parth\/Downloads\/cpufreqd-2.4.1\/missing --run automake-1.11$/;"	m
+AWK	Makefile	/^AWK = mawk$/;"	m
+BATTERY_TYPE	cpufreqd_acpi_battery.c	31;"	d	file:
+BUFLEN_PARAMETER_VALUE	cpufreqd_governor_parameters.c	33;"	d	file:
+BUILD_PLUGINS	Makefile	/^BUILD_PLUGINS = cpufreqd_programs.la cpufreqd_cpu.la $(am__append_1) \\$/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
+CHARGE_FULL	cpufreqd_acpi_battery.c	34;"	d	file:
+CHARGE_NOW	cpufreqd_acpi_battery.c	35;"	d	file:
+CMD_CUR_PROFILES	cpufreqd_remote.h	41;"	d
+CMD_LIST_PROFILES	cpufreqd_remote.h	37;"	d
+CMD_LIST_RULES	cpufreqd_remote.h	39;"	d
+CMD_SET_MODE	cpufreqd_remote.h	40;"	d
+CMD_SET_PROFILE	cpufreqd_remote.h	36;"	d
+CMD_SET_RULE	cpufreqd_remote.h	38;"	d
+CMD_SHIFT	cpufreqd_remote.h	34;"	d
+CMD_UPDATE_STATE	cpufreqd_remote.h	35;"	d
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CPUFREQD_CONFDIR	cpufreqd.h	37;"	d
+CPUFREQD_CONFIG	cpufreqd.h	48;"	d
+CPUFREQD_CONFPATH	Makefile	/^CPUFREQD_CONFPATH = \/usr\/local\/etc\/$/;"	m
+CPUFREQD_CONF_DIR	Makefile	/^CPUFREQD_CONF_DIR = \/usr\/local\/etc$/;"	m
+CPUFREQD_LDFLAGS	Makefile	/^CPUFREQD_LDFLAGS =  -ldl -lcpufreq$/;"	m
+CPUFREQD_LIBDIR	cpufreqd.h	41;"	d
+CPUFREQD_LIBPATH	Makefile	/^CPUFREQD_LIBPATH = \/usr\/local\/lib\/$/;"	m
+CPUFREQD_PIDFILE	cpufreqd.h	49;"	d
+CPUFREQD_SOCKET	sock_utils.h	23;"	d
+CPUFREQD_SOCKFILE	cpufreqd.h	50;"	d
+CPUFREQD_STATEDIR	cpufreqd.h	45;"	d
+CPUFREQD_STATEPATH	Makefile	/^CPUFREQD_STATEPATH = \/usr\/local\/var\/$/;"	m
+CPUINFO_PROC	cpufreq_utils.h	23;"	d
+CPU_ALL	cpufreqd_cpu.c	27;"	d	file:
+CPU_ANY	cpufreqd_cpu.c	26;"	d	file:
+CPU_INFO_FILE	cpufreqd_tau.c	31;"	d	file:
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CURRENT_NOW	cpufreqd_acpi_battery.c	38;"	d	file:
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFAULT_POLL	cpufreqd.h	53;"	d
+DEFAULT_VERBOSITY	cpufreqd.h	54;"	d
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(noinst_HEADERS) $(srcdir)\/Makefile.am \\$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(am__cpufreqd_acpi_la_SOURCES_DIST) \\$/;"	m
+DONT_MATCH	cpufreqd_plugin.h	35;"	d
+DSYMUTIL	Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	Makefile	/^DUMPBIN = $/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ENERGY_FULL	cpufreqd_acpi_battery.c	32;"	d	file:
+ENERGY_NOW	cpufreqd_acpi_battery.c	33;"	d	file:
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+FALSE	cpufreqd_plugin.h	33;"	d
+FGREP	Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+HAS_CPU	config_parser.c	271;"	d	file:
+HAS_MAX	config_parser.c	269;"	d	file:
+HAS_MIN	config_parser.c	268;"	d	file:
+HAS_NAME	config_parser.c	267;"	d	file:
+HAS_NAME	config_parser.c	459;"	d	file:
+HAS_POLICY	config_parser.c	270;"	d	file:
+HAS_PROFILE	config_parser.c	460;"	d	file:
+HEADERS	Makefile	/^HEADERS = $(noinst_HEADERS)$/;"	m
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INVALID_CMD	cpufreqd_remote.h	50;"	d
+KERNEL_VERSION_24	cpufreqd_plugin.h	39;"	d
+KERNEL_VERSION_26	cpufreqd_plugin.h	38;"	d
+LD	Makefile	/^LD = \/usr\/bin\/ld -m elf_x86_64$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL_DEPS	Makefile	/^LIBTOOL_DEPS = .\/ltmain.sh$/;"	m
+LINK	Makefile	/^LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LIPO	Makefile	/^LIPO = $/;"	m
+LIST	list.h	/^struct LIST {$/;"	s
+LIST_EMPTY	list.h	35;"	d
+LIST_FOREACH	list.h	25;"	d
+LIST_FOREACH_NODE	list.h	32;"	d
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LOG_ALERT	cpufreqd_log.h	25;"	d
+LOG_CRIT	cpufreqd_log.h	26;"	d
+LOG_DEBUG	cpufreqd_log.h	31;"	d
+LOG_EMERG	cpufreqd_log.h	24;"	d
+LOG_ERR	cpufreqd_log.h	27;"	d
+LOG_INFO	cpufreqd_log.h	30;"	d
+LOG_NOTICE	cpufreqd_log.h	29;"	d
+LOG_WARNING	cpufreqd_log.h	28;"	d
+LTCOMPILE	Makefile	/^LTCOMPILE = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBRARIES	Makefile	/^LTLIBRARIES = $(lib_LTLIBRARIES)$/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/parth\/Downloads\/cpufreqd-2.4.1\/missing --run makeinfo$/;"	m
+MAKE_COMMAND	cpufreqd_remote.h	49;"	d
+MATCH	cpufreqd_plugin.h	36;"	d
+MAX_PATH_LEN	cpufreqd.h	57;"	d
+MAX_STRING_LEN	cpufreqd.h	56;"	d
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MODE_DYNAMIC	cpufreqd_remote.h	44;"	d
+MODE_MANUAL	cpufreqd_remote.h	45;"	d
+NM	Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NMEDIT	Makefile	/^NMEDIT = $/;"	m
+NODE	list.h	/^struct NODE {$/;"	s
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NVCLOCK_SRCDIR	Makefile	/^NVCLOCK_SRCDIR = $/;"	m
+OBJDUMP	Makefile	/^OBJDUMP = objdump$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OTOOL	Makefile	/^OTOOL = $/;"	m
+OTOOL64	Makefile	/^OTOOL64 = $/;"	m
+PACKAGE	Makefile	/^PACKAGE = cpufreqd$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = malattia@linux.it$/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = cpufreqd$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = cpufreqd 2.4.1$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = cpufreqd$/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 2.4.1$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PLUGGED	cpufreqd_acpi_ac.c	33;"	d	file:
+PLUGGED	cpufreqd_apm.c	30;"	d	file:
+PLUGGED	cpufreqd_pmu.c	41;"	d	file:
+PMU_BATTERY_FILE	cpufreqd_pmu.c	36;"	d	file:
+PMU_BATTERY_FILE	cpufreqd_pmu.c	39;"	d	file:
+PMU_INFO_FILE	cpufreqd_pmu.c	35;"	d	file:
+PMU_INFO_FILE	cpufreqd_pmu.c	38;"	d	file:
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+POWER_SUPPLY	cpufreqd_acpi_ac.c	29;"	d	file:
+POWER_SUPPLY	cpufreqd_acpi_battery.c	30;"	d	file:
+PRESENT	cpufreqd_acpi_battery.c	36;"	d	file:
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRG_LENGTH	cpufreqd_programs.c	29;"	d	file:
+PROGRAMS	Makefile	/^PROGRAMS = $(sbin_PROGRAMS)$/;"	m
+PTHREAD_SRCDIR	Makefile	/^PTHREAD_SRCDIR = \/usr$/;"	m
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+REMOTE_ARG	cpufreqd_remote.h	48;"	d
+REMOTE_CMD	cpufreqd_remote.h	47;"	d
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SENSORS_SRCDIR	Makefile	/^SENSORS_SRCDIR = $/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SOURCES	Makefile	/^SOURCES = $(cpufreqd_acpi_la_SOURCES) $(cpufreqd_apm_la_SOURCES) \\$/;"	m
+STATUS	cpufreqd_acpi_battery.c	37;"	d	file:
+STRIP	Makefile	/^STRIP = strip$/;"	m
+SYS_CPU_DIR	cpufreqd_governor_parameters.c	34;"	d	file:
+THERMAL	cpufreqd_acpi_temperature.c	29;"	d	file:
+THERMAL_TEMP	cpufreqd_acpi_temperature.c	33;"	d	file:
+THERMAL_TYPE	cpufreqd_acpi_temperature.c	30;"	d	file:
+THERMAL_TYPE_ALT	cpufreqd_acpi_temperature.c	32;"	d	file:
+TMP_DIR_TEMPL	sock_utils.h	24;"	d
+TMP_DIR_TEMPL_LEN	sock_utils.h	25;"	d
+TNODE	cpufreqd_programs.c	/^struct TNODE {$/;"	s	file:
+TNODE	cpufreqd_programs.c	/^typedef struct TNODE TNODE;$/;"	t	typeref:struct:TNODE	file:
+TREE	cpufreqd_programs.c	/^typedef TNODE TREE;$/;"	t	file:
+TRIGGER_PROFILE_EVENT	main.c	58;"	d	file:
+TRIGGER_RULE_EVENT	main.c	47;"	d	file:
+TRUE	cpufreqd_plugin.h	34;"	d
+UNPLUGGED	cpufreqd_acpi_ac.c	34;"	d	file:
+UNPLUGGED	cpufreqd_apm.c	31;"	d	file:
+UNPLUGGED	cpufreqd_pmu.c	42;"	d	file:
+VERSION	Makefile	/^VERSION = 2.4.1$/;"	m
+_CONFIG_PARSER_H	config_parser.h	21;"	d
+__CPUFREQD_H__	cpufreqd.h	25;"	d
+__CPUFREQD_LOG_H	cpufreqd_log.h	21;"	d
+__CPUFREQD_MAINTAINER__	cpufreqd.h	28;"	d
+__CPUFREQD_PLUGIN_H__	cpufreqd_plugin.h	21;"	d
+__CPUFREQD_REMOTE_H	cpufreqd_remote.h	21;"	d
+__CPUFREQD_VERSION__	cpufreqd.h	27;"	d
+__LIST_H	list.h	21;"	d
+__UNUSED__	cpufreqd.h	31;"	d
+__UNUSED__	cpufreqd.h	33;"	d
+__attribute__	cpufreqd_sensors.c	27;"	d	file:
+abs_builddir	Makefile	/^abs_builddir = \/home\/parth\/Downloads\/cpufreqd-2.4.1\/src$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/parth\/Downloads\/cpufreqd-2.4.1\/src$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/parth\/Downloads\/cpufreqd-2.4.1$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/parth\/Downloads\/cpufreqd-2.4.1$/;"	m
+ac	cpufreqd_pmu.c	/^static unsigned int ac;$/;"	v	file:
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_DUMPBIN	Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_dir_num	cpufreqd_acpi_ac.c	/^static int ac_dir_num;$/;"	v	file:
+ac_state	cpufreqd_acpi_ac.c	/^static int ac_state;$/;"	v	file:
+ac_state	cpufreqd_apm.c	/^static unsigned int ac_state;$/;"	v	file:
+acpi	cpufreqd_acpi.c	/^static struct cpufreqd_plugin acpi = {$/;"	v	typeref:struct:cpufreqd_plugin	file:
+acpi_ac_evaluate	cpufreqd_acpi_ac.c	/^int acpi_ac_evaluate(const void *s) {$/;"	f
+acpi_ac_exit	cpufreqd_acpi_ac.c	/^short int acpi_ac_exit(void) {$/;"	f
+acpi_ac_init	cpufreqd_acpi_ac.c	/^short int acpi_ac_init(void) {$/;"	f
+acpi_ac_parse	cpufreqd_acpi_ac.c	/^int acpi_ac_parse(const char *ev, void **obj) {$/;"	f
+acpi_ac_update	cpufreqd_acpi_ac.c	/^int acpi_ac_update(void) {$/;"	f
+acpi_battery_evaluate	cpufreqd_acpi_battery.c	/^int acpi_battery_evaluate(const void *s) {$/;"	f
+acpi_battery_exit	cpufreqd_acpi_battery.c	/^short int acpi_battery_exit(void) {$/;"	f
+acpi_battery_init	cpufreqd_acpi_battery.c	/^short int acpi_battery_init(void) {$/;"	f
+acpi_battery_parse	cpufreqd_acpi_battery.c	/^int acpi_battery_parse(const char *ev, void **obj) {$/;"	f
+acpi_battery_update	cpufreqd_acpi_battery.c	/^int acpi_battery_update(void) {$/;"	f
+acpi_configuration	cpufreqd_acpi.h	/^struct acpi_configuration {$/;"	s
+acpi_event	cpufreqd_acpi_event.c	/^struct acpi_event {$/;"	s	file:
+acpi_event_active	cpufreqd_acpi_event.c	/^static int acpi_event_active;$/;"	v	file:
+acpi_event_exit	cpufreqd_acpi_event.c	/^short int acpi_event_exit (void) {$/;"	f
+acpi_event_init	cpufreqd_acpi_event.c	/^short int acpi_event_init (void) {$/;"	f
+acpi_event_lock	cpufreqd_acpi_event.c	/^int acpi_event_lock (void) {$/;"	f
+acpi_event_unlock	cpufreqd_acpi_event.c	/^int acpi_event_unlock (void) {$/;"	f
+acpi_exit	cpufreqd_acpi.c	/^static int acpi_exit (void) {$/;"	f	file:
+acpi_init	cpufreqd_acpi.c	/^static int acpi_init (void) {$/;"	f	file:
+acpi_temperature_evaluate	cpufreqd_acpi_temperature.c	/^int acpi_temperature_evaluate(const void *s)$/;"	f
+acpi_temperature_exit	cpufreqd_acpi_temperature.c	/^short int acpi_temperature_exit(void)$/;"	f
+acpi_temperature_init	cpufreqd_acpi_temperature.c	/^short int acpi_temperature_init(void)$/;"	f
+acpi_temperature_parse	cpufreqd_acpi_temperature.c	/^int acpi_temperature_parse(const char *ev, void **obj)$/;"	f
+acpi_temperature_update	cpufreqd_acpi_temperature.c	/^int acpi_temperature_update(void)$/;"	f
+acpi_update	cpufreqd_acpi.c	/^static int acpi_update(void) {$/;"	f	file:
+acpid_sock_path	cpufreqd_acpi.h	/^	char acpid_sock_path[MAX_PATH_LEN];$/;"	m	struct:acpi_configuration
+affected_cpus	cpufreqd_plugin.h	/^	struct cpufreq_affected_cpus *affected_cpus;$/;"	m	struct:cpufreq_sys_info	typeref:struct:cpufreq_sys_info::cpufreq_affected_cpus
+alarm_handler	main.c	/^static void alarm_handler(int signo) {$/;"	f	file:
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.in$/;"	m
+am__append_1	Makefile	/^am__append_1 = cpufreqd_acpi.la$/;"	m
+am__append_10	Makefile	/^am__append_10 = cpufreqd_train.la$/;"	m
+am__append_2	Makefile	/^am__append_2 = cpufreqd_nforce2.la$/;"	m
+am__append_4	Makefile	/^am__append_4 = cpufreqd_apm.la$/;"	m
+am__append_5	Makefile	/^am__append_5 = cpufreqd_pmu.la$/;"	m
+am__append_7	Makefile	/^am__append_7 = cpufreqd_exec.la$/;"	m
+am__append_8	Makefile	/^am__append_8 = cpufreqd_governor_parameters.la$/;"	m
+am__append_9	Makefile	/^am__append_9 = cpufreqd_tau.la$/;"	m
+am__base_list	Makefile	/^am__base_list = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__cpufreqd_acpi_la_SOURCES_DIST	Makefile	/^am__cpufreqd_acpi_la_SOURCES_DIST = cpufreqd_acpi.c cpufreqd_acpi_ac.c \\$/;"	m
+am__cpufreqd_apm_la_SOURCES_DIST	Makefile	/^am__cpufreqd_apm_la_SOURCES_DIST = cpufreqd_apm.c$/;"	m
+am__cpufreqd_exec_la_SOURCES_DIST	Makefile	/^am__cpufreqd_exec_la_SOURCES_DIST = cpufreqd_exec.c$/;"	m
+am__cpufreqd_governor_parameters_la_SOURCES_DIST	Makefile	/^am__cpufreqd_governor_parameters_la_SOURCES_DIST =  \\$/;"	m
+am__cpufreqd_nforce2_la_SOURCES_DIST	Makefile	/^am__cpufreqd_nforce2_la_SOURCES_DIST = cpufreqd_nforce2.c$/;"	m
+am__cpufreqd_nvclock_la_SOURCES_DIST	Makefile	/^am__cpufreqd_nvclock_la_SOURCES_DIST = cpufreqd_nvclock.c$/;"	m
+am__cpufreqd_pmu_la_SOURCES_DIST	Makefile	/^am__cpufreqd_pmu_la_SOURCES_DIST = cpufreqd_pmu.c$/;"	m
+am__cpufreqd_sensors_la_SOURCES_DIST	Makefile	/^am__cpufreqd_sensors_la_SOURCES_DIST = cpufreqd_sensors.c$/;"	m
+am__cpufreqd_tau_la_SOURCES_DIST	Makefile	/^am__cpufreqd_tau_la_SOURCES_DIST = cpufreqd_tau.c$/;"	m
+am__cpufreqd_train_la_SOURCES_DIST	Makefile	/^am__cpufreqd_train_la_SOURCES_DIST = cpufreqd_train.c$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__install_max	Makefile	/^am__install_max = 40$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(libdir)" "$(DESTDIR)$(sbindir)"$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__nobase_list	Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_strip	Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip_setup	Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__strip_dir	Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tar	Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__untar	Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__vpath_adj	Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am_cpufreqd_OBJECTS	Makefile	/^am_cpufreqd_OBJECTS = main.$(OBJEXT) config_parser.$(OBJEXT) \\$/;"	m
+am_cpufreqd_acpi_la_OBJECTS	Makefile	/^am_cpufreqd_acpi_la_OBJECTS =  \\$/;"	m
+am_cpufreqd_acpi_la_rpath	Makefile	/^am_cpufreqd_acpi_la_rpath = -rpath $(libdir)$/;"	m
+am_cpufreqd_apm_la_OBJECTS	Makefile	/^am_cpufreqd_apm_la_OBJECTS = cpufreqd_apm.lo$/;"	m
+am_cpufreqd_apm_la_rpath	Makefile	/^am_cpufreqd_apm_la_rpath = -rpath $(libdir)$/;"	m
+am_cpufreqd_cpu_la_OBJECTS	Makefile	/^am_cpufreqd_cpu_la_OBJECTS = cpufreqd_cpu.lo$/;"	m
+am_cpufreqd_exec_la_OBJECTS	Makefile	/^am_cpufreqd_exec_la_OBJECTS =  \\$/;"	m
+am_cpufreqd_exec_la_rpath	Makefile	/^am_cpufreqd_exec_la_rpath = -rpath $(libdir)$/;"	m
+am_cpufreqd_governor_parameters_la_OBJECTS	Makefile	/^am_cpufreqd_governor_parameters_la_OBJECTS = cpufreqd_governor_parameters_la-cpufreqd_governor_parameters.lo$/;"	m
+am_cpufreqd_governor_parameters_la_rpath	Makefile	/^am_cpufreqd_governor_parameters_la_rpath =  \\$/;"	m
+am_cpufreqd_nforce2_la_OBJECTS	Makefile	/^am_cpufreqd_nforce2_la_OBJECTS =  \\$/;"	m
+am_cpufreqd_nforce2_la_rpath	Makefile	/^am_cpufreqd_nforce2_la_rpath = -rpath $(libdir)$/;"	m
+am_cpufreqd_pmu_la_OBJECTS	Makefile	/^am_cpufreqd_pmu_la_OBJECTS = cpufreqd_pmu.lo$/;"	m
+am_cpufreqd_pmu_la_rpath	Makefile	/^am_cpufreqd_pmu_la_rpath = -rpath $(libdir)$/;"	m
+am_cpufreqd_programs_la_OBJECTS	Makefile	/^am_cpufreqd_programs_la_OBJECTS = cpufreqd_programs.lo$/;"	m
+am_cpufreqd_tau_la_OBJECTS	Makefile	/^am_cpufreqd_tau_la_OBJECTS = cpufreqd_tau.lo$/;"	m
+am_cpufreqd_tau_la_rpath	Makefile	/^am_cpufreqd_tau_la_rpath = -rpath $(libdir)$/;"	m
+am_cpufreqd_train_la_OBJECTS	Makefile	/^am_cpufreqd_train_la_OBJECTS = cpufreqd_train.lo$/;"	m
+am_cpufreqd_train_la_rpath	Makefile	/^am_cpufreqd_train_la_rpath = -rpath $(libdir)$/;"	m
+apm	cpufreqd_apm.c	/^static struct cpufreqd_plugin apm = {$/;"	v	typeref:struct:cpufreqd_plugin	file:
+apm_ac_evaluate	cpufreqd_apm.c	/^static int apm_ac_evaluate(const void *s) {$/;"	f	file:
+apm_ac_parse	cpufreqd_apm.c	/^static int apm_ac_parse(const char *ev, void **obj) {$/;"	f	file:
+apm_bat_evaluate	cpufreqd_apm.c	/^static int apm_bat_evaluate(const void *s) {$/;"	f	file:
+apm_bat_parse	cpufreqd_apm.c	/^static int apm_bat_parse(const char *ev, void **obj) {$/;"	f	file:
+apm_exit	cpufreqd_apm.c	/^static int apm_exit(void) {$/;"	f	file:
+apm_init	cpufreqd_apm.c	/^static int apm_init(void) {$/;"	f	file:
+apm_update	cpufreqd_apm.c	/^static int apm_update(void) {$/;"	f	file:
+assigned_cpus	config_parser.h	/^	unsigned long assigned_cpus; \/* bit map holding which cpus have been assigned a Profile for this rule *\/$/;"	m	struct:rule
+atz_callback	cpufreqd_acpi_temperature.c	/^static int atz_callback(struct sysfs_class_device *cdev)$/;"	f	file:
+atz_dir_num	cpufreqd_acpi_temperature.c	/^static int atz_dir_num;$/;"	v	file:
+atz_list	cpufreqd_acpi_temperature.c	/^static struct thermal_zone atz_list[64];$/;"	v	typeref:struct:thermal_zone	file:
+avg_battery_level	cpufreqd_acpi_battery.c	/^static int avg_battery_level;$/;"	v	file:
+bat	cpufreqd_acpi_battery.c	/^	struct battery_info *bat;$/;"	m	struct:battery_interval	typeref:struct:battery_interval::battery_info	file:
+bat_dir_num	cpufreqd_acpi_battery.c	/^static int bat_dir_num;$/;"	v	file:
+battery_info	cpufreqd_acpi_battery.c	/^struct battery_info {$/;"	s	file:
+battery_interval	cpufreqd_acpi_battery.c	/^struct battery_interval {$/;"	s	file:
+battery_interval	cpufreqd_apm.c	/^struct battery_interval {$/;"	s	file:
+battery_interval	cpufreqd_pmu.c	/^struct battery_interval {$/;"	s	file:
+battery_percent	cpufreqd_apm.c	/^static int battery_percent;$/;"	v	file:
+battery_percent	cpufreqd_pmu.c	/^static int battery_percent;$/;"	v	file:
+battery_present	cpufreqd_apm.c	/^static int battery_present;$/;"	v	file:
+battery_present	cpufreqd_pmu.c	/^static unsigned int battery_present;$/;"	v	file:
+battery_update_interval	cpufreqd_acpi.h	/^	int battery_update_interval;$/;"	m	struct:acpi_configuration
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+build	Makefile	/^build = x86_64-unknown-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = x86_64$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = x86_64-unknown-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = unknown$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+bus_id	cpufreqd_acpi_event.c	/^	char *bus_id;$/;"	m	struct:acpi_event	file:
+c_idle	cpufreqd_cpu.c	/^	unsigned int c_idle;$/;"	m	struct:cpu_usage	file:
+c_nice	cpufreqd_cpu.c	/^	unsigned int c_nice;$/;"	m	struct:cpu_usage	file:
+c_sys	cpufreqd_cpu.c	/^	unsigned int c_sys;$/;"	m	struct:cpu_usage	file:
+c_time	cpufreqd_cpu.c	/^	unsigned int c_time;$/;"	m	struct:cpu_usage	file:
+c_user	cpufreqd_cpu.c	/^	unsigned int c_user;$/;"	m	struct:cpu_usage	file:
+calculate_cpu_usage	cpufreqd_cpu.c	/^static int calculate_cpu_usage(struct cpu_usage *cur, struct cpu_usage *old, double nice_scale) {$/;"	f	file:
+capacity	cpufreqd_acpi_battery.c	/^	int capacity;$/;"	m	struct:battery_info	file:
+card	cpufreqd_nvclock.c	/^	int card;$/;"	m	struct:nvclock_elem	file:
+cdev	cpufreqd_acpi_battery.c	/^	struct sysfs_class_device *cdev;$/;"	m	struct:battery_info	typeref:struct:battery_info::sysfs_class_device	file:
+cdev	cpufreqd_acpi_temperature.c	/^	struct sysfs_class_device *cdev;$/;"	m	struct:thermal_zone	typeref:struct:thermal_zone::sysfs_class_device	file:
+check_timeout	cpufreqd_acpi_battery.c	/^static double check_timeout;$/;"	v	file:
+chip	cpufreqd_sensors.c	/^	const sensors_chip_name *chip;$/;"	m	struct:sensors_monitor	file:
+chip_string	cpufreqd_sensors.c	/^	char chip_string[MAX_STRING_LEN];$/;"	m	struct:sensors_monitor	file:
+clean_config_line	config_parser.c	/^static char *clean_config_line (char *str) {$/;"	f	file:
+clear_cpufreqd_pid	daemon_utils.c	/^int clear_cpufreqd_pid(const char *pidfile) {$/;"	f
+clog	cpufreqd_log.h	36;"	d
+clog	cpufreqd_log.h	40;"	d
+close_acpi_event	cpufreqd_acpi_event.c	/^static void close_acpi_event(void) {$/;"	f	file:
+close_battery	cpufreqd_acpi_battery.c	/^static void close_battery(struct battery_info *binfo) {$/;"	f	file:
+close_plugin	plugin_utils.c	/^void close_plugin(struct plugin_obj *cp) {$/;"	f
+close_unix_sock	sock_utils.c	/^void close_unix_sock(int fd) {$/;"	f
+clsdev_callback	cpufreqd_acpi_battery.c	/^static int clsdev_callback(struct sysfs_class_device *cdev) {$/;"	f	file:
+cmd	cpufreqd_exec.c	/^	const char *cmd;$/;"	m	struct:exec_cmd	file:
+config_file	config_parser.h	/^	char config_file[MAX_PATH_LEN];$/;"	m	struct:cpufreqd_conf
+configuration	main.c	/^struct cpufreqd_conf *configuration;$/;"	v	typeref:struct:cpufreqd_conf
+configure_plugin	config_parser.c	/^static void configure_plugin(FILE *config, struct plugin_obj *plugin) {$/;"	f	file:
+configured	plugin_utils.h	/^	unsigned int configured;	\/* track if the plugin has$/;"	m	struct:plugin_obj
+content	list.h	/^	void *content;$/;"	m	struct:NODE
+cpu	config_parser.h	/^	unsigned int cpu;$/;"	m	struct:profile
+cpu	cpufreqd_cpu.c	/^	unsigned int cpu;$/;"	m	struct:cpu_interval	file:
+cpu_evaluate	cpufreqd_cpu.c	/^static int cpu_evaluate(const void *s) {$/;"	f	file:
+cpu_interval	cpufreqd_cpu.c	/^struct cpu_interval {$/;"	s	file:
+cpu_parse	cpufreqd_cpu.c	/^static int cpu_parse(const char *ev, void **obj)$/;"	f	file:
+cpu_plugin	cpufreqd_cpu.c	/^static struct cpufreqd_plugin cpu_plugin = {$/;"	v	typeref:struct:cpufreqd_plugin	file:
+cpu_usage	cpufreqd_cpu.c	/^struct cpu_usage {$/;"	s	file:
+cpufreq_limits	cpufreqd_plugin.h	/^struct cpufreq_limits {$/;"	s
+cpufreq_sys_info	cpufreqd_plugin.h	/^struct cpufreq_sys_info {$/;"	s
+cpufreqd_LDADD	Makefile	/^cpufreqd_LDADD = $(LDADD)$/;"	m
+cpufreqd_LDFLAGS	Makefile	/^cpufreqd_LDFLAGS = -export-dynamic  -ldl -lcpufreq$/;"	m
+cpufreqd_LINK	Makefile	/^cpufreqd_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+cpufreqd_OBJECTS	Makefile	/^cpufreqd_OBJECTS = $(am_cpufreqd_OBJECTS)$/;"	m
+cpufreqd_SOURCES	Makefile	/^cpufreqd_SOURCES = \\$/;"	m
+cpufreqd_acpi_la_CFLAGS	Makefile	/^cpufreqd_acpi_la_CFLAGS = \\$/;"	m
+cpufreqd_acpi_la_LDFLAGS	Makefile	/^cpufreqd_acpi_la_LDFLAGS = \\$/;"	m
+cpufreqd_acpi_la_LIBADD	Makefile	/^cpufreqd_acpi_la_LIBADD =$/;"	m
+cpufreqd_acpi_la_LINK	Makefile	/^cpufreqd_acpi_la_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+cpufreqd_acpi_la_OBJECTS	Makefile	/^cpufreqd_acpi_la_OBJECTS = $(am_cpufreqd_acpi_la_OBJECTS)$/;"	m
+cpufreqd_acpi_la_SOURCES	Makefile	/^cpufreqd_acpi_la_SOURCES = \\$/;"	m
+cpufreqd_apm_la_LDFLAGS	Makefile	/^cpufreqd_apm_la_LDFLAGS = \\$/;"	m
+cpufreqd_apm_la_LIBADD	Makefile	/^cpufreqd_apm_la_LIBADD =$/;"	m
+cpufreqd_apm_la_LINK	Makefile	/^cpufreqd_apm_la_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+cpufreqd_apm_la_OBJECTS	Makefile	/^cpufreqd_apm_la_OBJECTS = $(am_cpufreqd_apm_la_OBJECTS)$/;"	m
+cpufreqd_apm_la_SOURCES	Makefile	/^cpufreqd_apm_la_SOURCES = \\$/;"	m
+cpufreqd_conf	config_parser.h	/^struct cpufreqd_conf {$/;"	s
+cpufreqd_cpu_exit	cpufreqd_cpu.c	/^static int cpufreqd_cpu_exit(void) {$/;"	f	file:
+cpufreqd_cpu_init	cpufreqd_cpu.c	/^static int cpufreqd_cpu_init(void) {$/;"	f	file:
+cpufreqd_cpu_la_LDFLAGS	Makefile	/^cpufreqd_cpu_la_LDFLAGS = \\$/;"	m
+cpufreqd_cpu_la_LIBADD	Makefile	/^cpufreqd_cpu_la_LIBADD =$/;"	m
+cpufreqd_cpu_la_LINK	Makefile	/^cpufreqd_cpu_la_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+cpufreqd_cpu_la_OBJECTS	Makefile	/^cpufreqd_cpu_la_OBJECTS = $(am_cpufreqd_cpu_la_OBJECTS)$/;"	m
+cpufreqd_cpu_la_SOURCES	Makefile	/^cpufreqd_cpu_la_SOURCES = \\$/;"	m
+cpufreqd_exec_la_CFLAGS	Makefile	/^cpufreqd_exec_la_CFLAGS = \\$/;"	m
+cpufreqd_exec_la_LDFLAGS	Makefile	/^cpufreqd_exec_la_LDFLAGS = \\$/;"	m
+cpufreqd_exec_la_LIBADD	Makefile	/^cpufreqd_exec_la_LIBADD =$/;"	m
+cpufreqd_exec_la_LINK	Makefile	/^cpufreqd_exec_la_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+cpufreqd_exec_la_OBJECTS	Makefile	/^cpufreqd_exec_la_OBJECTS = $(am_cpufreqd_exec_la_OBJECTS)$/;"	m
+cpufreqd_exec_la_SOURCES	Makefile	/^cpufreqd_exec_la_SOURCES = \\$/;"	m
+cpufreqd_governor_parameters_la_CFLAGS	Makefile	/^cpufreqd_governor_parameters_la_CFLAGS = \\$/;"	m
+cpufreqd_governor_parameters_la_LDFLAGS	Makefile	/^cpufreqd_governor_parameters_la_LDFLAGS = \\$/;"	m
+cpufreqd_governor_parameters_la_LIBADD	Makefile	/^cpufreqd_governor_parameters_la_LIBADD =$/;"	m
+cpufreqd_governor_parameters_la_LINK	Makefile	/^cpufreqd_governor_parameters_la_LINK = $(LIBTOOL) --tag=CC \\$/;"	m
+cpufreqd_governor_parameters_la_OBJECTS	Makefile	/^cpufreqd_governor_parameters_la_OBJECTS =  \\$/;"	m
+cpufreqd_governor_parameters_la_SOURCES	Makefile	/^cpufreqd_governor_parameters_la_SOURCES = \\$/;"	m
+cpufreqd_info	cpufreqd_plugin.h	/^struct cpufreqd_info {$/;"	s
+cpufreqd_info	main.c	/^static struct cpufreqd_info *cpufreqd_info;$/;"	v	typeref:struct:cpufreqd_info	file:
+cpufreqd_keyword	cpufreqd_plugin.h	/^struct cpufreqd_keyword {$/;"	s
+cpufreqd_log	cpufreqd_log.c	/^void cpufreqd_log(int prio, const char *fmt, ...) {$/;"	f
+cpufreqd_loop	main.c	/^static void cpufreqd_loop(struct cpufreqd_conf *conf) {$/;"	f	file:
+cpufreqd_mode	cpufreqd_plugin.h	/^	int cpufreqd_mode; \/* operation mode (manual \/ dynamic) *\/$/;"	m	struct:cpufreqd_info
+cpufreqd_nforce2_la_LDFLAGS	Makefile	/^cpufreqd_nforce2_la_LDFLAGS = \\$/;"	m
+cpufreqd_nforce2_la_LIBADD	Makefile	/^cpufreqd_nforce2_la_LIBADD =$/;"	m
+cpufreqd_nforce2_la_LINK	Makefile	/^cpufreqd_nforce2_la_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+cpufreqd_nforce2_la_OBJECTS	Makefile	/^cpufreqd_nforce2_la_OBJECTS = $(am_cpufreqd_nforce2_la_OBJECTS)$/;"	m
+cpufreqd_nforce2_la_SOURCES	Makefile	/^cpufreqd_nforce2_la_SOURCES = \\$/;"	m
+cpufreqd_nvclock_la_LIBADD	Makefile	/^cpufreqd_nvclock_la_LIBADD =$/;"	m
+cpufreqd_nvclock_la_LINK	Makefile	/^cpufreqd_nvclock_la_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+cpufreqd_nvclock_la_OBJECTS	Makefile	/^cpufreqd_nvclock_la_OBJECTS = $(am_cpufreqd_nvclock_la_OBJECTS)$/;"	m
+cpufreqd_plugin	cpufreqd_plugin.h	/^struct cpufreqd_plugin {$/;"	s
+cpufreqd_plugin_filter	plugin_utils.c	/^static int cpufreqd_plugin_filter(const struct dirent *d) {$/;"	f	file:
+cpufreqd_pmu_la_LDFLAGS	Makefile	/^cpufreqd_pmu_la_LDFLAGS = \\$/;"	m
+cpufreqd_pmu_la_LIBADD	Makefile	/^cpufreqd_pmu_la_LIBADD =$/;"	m
+cpufreqd_pmu_la_LINK	Makefile	/^cpufreqd_pmu_la_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+cpufreqd_pmu_la_OBJECTS	Makefile	/^cpufreqd_pmu_la_OBJECTS = $(am_cpufreqd_pmu_la_OBJECTS)$/;"	m
+cpufreqd_pmu_la_SOURCES	Makefile	/^cpufreqd_pmu_la_SOURCES = \\$/;"	m
+cpufreqd_programs_la_LDFLAGS	Makefile	/^cpufreqd_programs_la_LDFLAGS = \\$/;"	m
+cpufreqd_programs_la_LIBADD	Makefile	/^cpufreqd_programs_la_LIBADD =$/;"	m
+cpufreqd_programs_la_LINK	Makefile	/^cpufreqd_programs_la_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+cpufreqd_programs_la_OBJECTS	Makefile	/^cpufreqd_programs_la_OBJECTS = $(am_cpufreqd_programs_la_OBJECTS)$/;"	m
+cpufreqd_programs_la_SOURCES	Makefile	/^cpufreqd_programs_la_SOURCES = \\$/;"	m
+cpufreqd_sensors_la_LIBADD	Makefile	/^cpufreqd_sensors_la_LIBADD =$/;"	m
+cpufreqd_sensors_la_LINK	Makefile	/^cpufreqd_sensors_la_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+cpufreqd_sensors_la_OBJECTS	Makefile	/^cpufreqd_sensors_la_OBJECTS = $(am_cpufreqd_sensors_la_OBJECTS)$/;"	m
+cpufreqd_set_profile	main.c	/^static int cpufreqd_set_profile (struct profile **old, struct profile **new) {$/;"	f	file:
+cpufreqd_tau_la_LDFLAGS	Makefile	/^cpufreqd_tau_la_LDFLAGS = \\$/;"	m
+cpufreqd_tau_la_LIBADD	Makefile	/^cpufreqd_tau_la_LIBADD =$/;"	m
+cpufreqd_tau_la_LINK	Makefile	/^cpufreqd_tau_la_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+cpufreqd_tau_la_OBJECTS	Makefile	/^cpufreqd_tau_la_OBJECTS = $(am_cpufreqd_tau_la_OBJECTS)$/;"	m
+cpufreqd_tau_la_SOURCES	Makefile	/^cpufreqd_tau_la_SOURCES = \\$/;"	m
+cpufreqd_train_la_LDFLAGS	Makefile	/^cpufreqd_train_la_LDFLAGS = \\$/;"	m
+cpufreqd_train_la_LIBADD	Makefile	/^cpufreqd_train_la_LIBADD =$/;"	m
+cpufreqd_train_la_LINK	Makefile	/^cpufreqd_train_la_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+cpufreqd_train_la_OBJECTS	Makefile	/^cpufreqd_train_la_OBJECTS = $(am_cpufreqd_train_la_OBJECTS)$/;"	m
+cpufreqd_train_la_SOURCES	Makefile	/^cpufreqd_train_la_SOURCES = \\$/;"	m
+cpus	cpufreqd_plugin.h	/^	unsigned int cpus;$/;"	m	struct:cpufreqd_info
+create_plugin	cpufreqd_acpi.c	/^struct cpufreqd_plugin *create_plugin (void) {$/;"	f
+create_plugin	cpufreqd_apm.c	/^struct cpufreqd_plugin *create_plugin (void) {$/;"	f
+create_plugin	cpufreqd_cpu.c	/^struct cpufreqd_plugin *create_plugin (void) {$/;"	f
+create_plugin	cpufreqd_exec.c	/^struct cpufreqd_plugin *create_plugin(void) {$/;"	f
+create_plugin	cpufreqd_governor_parameters.c	/^struct cpufreqd_plugin *create_plugin(void)$/;"	f
+create_plugin	cpufreqd_nforce2.c	/^struct cpufreqd_plugin *create_plugin (void) {$/;"	f
+create_plugin	cpufreqd_nvclock.c	/^struct cpufreqd_plugin *create_plugin (void) {$/;"	f
+create_plugin	cpufreqd_pmu.c	/^struct cpufreqd_plugin *create_plugin (void) {$/;"	f
+create_plugin	cpufreqd_programs.c	/^struct cpufreqd_plugin *create_plugin (void) {$/;"	f
+create_plugin	cpufreqd_sensors.c	/^struct cpufreqd_plugin *create_plugin (void) {$/;"	f
+create_plugin	cpufreqd_tau.c	/^struct cpufreqd_plugin *create_plugin (void) {$/;"	f
+create_plugin	cpufreqd_train.c	/^struct cpufreqd_plugin *create_plugin (void) {$/;"	f
+create_temp_dir	sock_utils.c	/^char *create_temp_dir(char *buf, gid_t gid) {$/;"	f
+cur_freq	cpufreqd_nforce2.c	/^static unsigned int cur_freq = 0;$/;"	v	file:
+current_now	cpufreqd_acpi_battery.c	/^	struct sysfs_attribute *current_now; \/* present rate *\/$/;"	m	struct:battery_info	typeref:struct:battery_info::sysfs_attribute	file:
+current_profiles	cpufreqd_plugin.h	/^	struct profile **current_profiles;$/;"	m	struct:cpufreqd_info	typeref:struct:cpufreqd_info::profile
+current_rule	main.c	/^static struct rule *current_rule;$/;"	v	typeref:struct:rule	file:
+cusage	cpufreqd_cpu.c	/^static struct cpu_usage *cusage;$/;"	v	typeref:struct:cpu_usage	file:
+cusage_old	cpufreqd_cpu.c	/^static struct cpu_usage *cusage_old;$/;"	v	typeref:struct:cpu_usage	file:
+daemonize	daemon_utils.c	/^int daemonize (void) {$/;"	f
+data	cpufreqd_acpi_event.c	/^	unsigned int data;$/;"	m	struct:acpi_event	file:
+data	cpufreqd_plugin.h	/^	void *data;$/;"	m	struct:cpufreqd_plugin
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+debug_tnode	cpufreqd_programs.c	/^static void debug_tnode(TNODE *n) {$/;"	f	file:
+default_configuration	main.c	/^static struct cpufreqd_conf default_configuration = {$/;"	v	typeref:struct:cpufreqd_conf	file:
+default_file_path	cpufreqd_sensors.c	/^static const char *default_file_path[] =$/;"	v	file:
+delete_temp_dir	sock_utils.c	/^void delete_temp_dir(const char *dirname) {$/;"	f
+delta_time	cpufreqd_cpu.c	/^	unsigned int delta_time;$/;"	m	struct:cpu_usage	file:
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+device_class	cpufreqd_acpi_event.c	/^	char *device_class;$/;"	m	struct:acpi_event	file:
+directive	config_parser.h	/^struct directive {$/;"	s
+directives	config_parser.h	/^	struct LIST directives; \/* list of struct directive *\/$/;"	m	struct:profile	typeref:struct:profile::LIST
+directives	config_parser.h	/^	struct LIST directives; \/* list of struct directive *\/$/;"	m	struct:rule	typeref:struct:rule::LIST
+directives_count	config_parser.h	/^	unsigned int directives_count;$/;"	m	struct:profile
+directives_count	config_parser.h	/^	unsigned int directives_count;$/;"	m	struct:rule
+discover_plugins	plugin_utils.c	/^void discover_plugins(struct LIST *plugins) {$/;"	f
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+double_check	config_parser.h	/^	unsigned int double_check;$/;"	m	struct:cpufreqd_conf
+down_threshold_parse	cpufreqd_governor_parameters.c	/^static int down_threshold_parse(const char *value, void **obj)$/;"	f	file:
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+enable_remote	config_parser.h	/^	unsigned int enable_remote;$/;"	m	struct:cpufreqd_conf
+energy_full	cpufreqd_acpi_battery.c	/^	struct sysfs_attribute *energy_full; \/* last full capacity *\/$/;"	m	struct:battery_info	typeref:struct:battery_info::sysfs_attribute	file:
+energy_now	cpufreqd_acpi_battery.c	/^	struct sysfs_attribute *energy_now; \/* remaining capacity *\/$/;"	m	struct:battery_info	typeref:struct:battery_info::sysfs_attribute	file:
+evaluate	cpufreqd_plugin.h	/^	int (*evaluate) (const void *obj);$/;"	m	struct:cpufreqd_keyword
+event_fd	cpufreqd_acpi_event.c	/^static int event_fd;$/;"	v	file:
+event_mutex	cpufreqd_acpi_event.c	/^static pthread_mutex_t event_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+event_pending	cpufreqd_acpi_event.c	/^static short event_pending;$/;"	v	file:
+event_thread	cpufreqd_acpi_event.c	/^static pthread_t event_thread;$/;"	v	file:
+event_wait	cpufreqd_acpi_event.c	/^static void *event_wait (void __UNUSED__ *arg) {$/;"	f	file:
+exe_exit_cmd	cpufreqd_exec.c	/^static struct exec_cmd exe_exit_cmd = { .cmd = "", .next = NULL };$/;"	v	typeref:struct:exec_cmd	file:
+exe_q	cpufreqd_exec.c	/^static struct exec_cmd *exe_q;$/;"	v	typeref:struct:exec_cmd	file:
+exe_q_cond	cpufreqd_exec.c	/^static pthread_cond_t exe_q_cond = PTHREAD_COND_INITIALIZER;$/;"	v	file:
+exe_q_mtx	cpufreqd_exec.c	/^static pthread_mutex_t exe_q_mtx = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+exe_thread	cpufreqd_exec.c	/^static pthread_t exe_thread;$/;"	v	file:
+exec_cmd	cpufreqd_exec.c	/^struct exec_cmd {$/;"	s	file:
+exec_enqueue	cpufreqd_exec.c	/^static void exec_enqueue (const char *cmd) {$/;"	f	file:
+exec_exit	cpufreqd_exec.c	/^static int exec_exit (void) {$/;"	f	file:
+exec_init	cpufreqd_exec.c	/^static int exec_init (void) {$/;"	f	file:
+exec_parse	cpufreqd_exec.c	/^static int exec_parse (const char *line, void **obj) {$/;"	f	file:
+exec_prefix	Makefile	/^exec_prefix = \/usr\/local$/;"	m
+exec_profile_post_change	cpufreqd_exec.c	/^static void exec_profile_post_change(void *obj,$/;"	f	file:
+exec_profile_pre_change	cpufreqd_exec.c	/^static void exec_profile_pre_change(void __UNUSED__ *obj,$/;"	f	file:
+exec_rule_change	cpufreqd_exec.c	/^static void exec_rule_change(void *obj,$/;"	f	file:
+exec_update	cpufreqd_exec.c	/^static int exec_update(void) {$/;"	f	file:
+execute_command	main.c	/^static void execute_command(int sock, struct cpufreqd_conf *conf) {$/;"	f	file:
+feat	cpufreqd_sensors.c	/^	const sensors_feature *feat;$/;"	m	struct:sensors_monitor	file:
+finalize_plugin	plugin_utils.c	/^int finalize_plugin(struct plugin_obj *cp) {$/;"	f
+find_program	cpufreqd_programs.c	/^static int find_program(const TNODE *l) {$/;"	f	file:
+find_tnode	cpufreqd_programs.c	/^static TNODE * find_tnode(TREE *t, const char *c) {$/;"	f	file:
+first	list.h	/^	struct NODE *first;$/;"	m	struct:LIST	typeref:struct:LIST::NODE
+force_exit	main.c	/^static int force_exit = 0;$/;"	v	file:
+force_reinit	main.c	/^static int force_reinit = 0;$/;"	v	file:
+free	cpufreqd_plugin.h	/^	void (*free) (void *obj);$/;"	m	struct:cpufreqd_keyword
+free_configuration	config_parser.c	/^void free_configuration(struct cpufreqd_conf *configuration)$/;"	f
+free_cpu_intervals	cpufreqd_cpu.c	/^static void free_cpu_intervals(void *obj) {$/;"	f	file:
+free_keyword_object	plugin_utils.c	/^void free_keyword_object(struct cpufreqd_keyword *k, void *obj) {$/;"	f
+free_tnode	cpufreqd_programs.c	/^static void free_tnode(TNODE *n) {$/;"	f	file:
+free_tree	cpufreqd_programs.c	/^static void free_tree(TREE *t) {$/;"	f	file:
+freq_step_parse	cpufreqd_governor_parameters.c	/^static int freq_step_parse(const char *value, void **obj)$/;"	f	file:
+frequencies	cpufreqd_plugin.h	/^	struct cpufreq_available_frequencies *frequencies;$/;"	m	struct:cpufreq_sys_info	typeref:struct:cpufreq_sys_info::cpufreq_available_frequencies
+get_battery_info	cpufreqd_acpi_battery.c	/^static struct battery_info *get_battery_info(const char *name)$/;"	f	file:
+get_cpu	cpufreqd_cpu.c	/^static int get_cpu(void) {$/;"	f	file:
+get_cpu_num	cpufreq_utils.c	/^int get_cpu_num(void) {$/;"	f
+get_cpufreqd_info	main.c	/^struct cpufreqd_info * get_cpufreqd_info (void) {$/;"	f
+get_cpufreqd_object	plugin_utils.c	/^int get_cpufreqd_object(struct plugin_obj *cp) {$/;"	f
+get_kversion	main.c	/^static int get_kversion(void) {$/;"	f	file:
+get_max_available_freq	cpufreq_utils.c	/^unsigned long get_max_available_freq(struct cpufreq_available_frequencies *freqs) {$/;"	f
+get_min_available_freq	cpufreq_utils.c	/^unsigned long get_min_available_freq(struct cpufreq_available_frequencies *freqs) {$/;"	f
+get_parameter	cpufreqd_governor_parameters.c	/^static long int get_parameter(struct sysfs_device *govdev, const char *parameter)$/;"	f	file:
+get_thermal_zone	cpufreqd_acpi_temperature.c	/^static struct thermal_zone *get_thermal_zone(const char *name)$/;"	f	file:
+gov_parameter	cpufreqd_governor_parameters.c	/^struct gov_parameter {$/;"	s	file:
+gov_parameter_exit	cpufreqd_governor_parameters.c	/^static int gov_parameter_exit(void)$/;"	f	file:
+gov_parameter_init	cpufreqd_governor_parameters.c	/^static int gov_parameter_init(void)$/;"	f	file:
+gov_parameter_post_change	cpufreqd_governor_parameters.c	/^static void gov_parameter_post_change(void *obj, const struct cpufreq_policy *not_needed,$/;"	f	file:
+governor_parameter	cpufreqd_governor_parameters.c	/^static struct cpufreqd_plugin governor_parameter = {$/;"	v	typeref:struct:cpufreqd_plugin	file:
+governors	cpufreqd_plugin.h	/^	struct cpufreq_available_governors *governors;$/;"	m	struct:cpufreq_sys_info	typeref:struct:cpufreq_sys_info::cpufreq_available_governors
+has_sysfs	config_parser.h	/^	unsigned int has_sysfs;$/;"	m	struct:cpufreqd_conf
+height	cpufreqd_programs.c	/^	unsigned short height;$/;"	m	struct:TNODE	file:
+host	Makefile	/^host = x86_64-unknown-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = x86_64$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = x86_64-unknown-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = unknown$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+hup_handler	main.c	/^static void hup_handler(int signo) {$/;"	f	file:
+ignore_nice_load_parse	cpufreqd_governor_parameters.c	/^static int ignore_nice_load_parse(const char *value, void **obj)$/;"	f	file:
+ignore_nice_parse	cpufreqd_governor_parameters.c	/^static int ignore_nice_parse(const char *value, void **obj)$/;"	f	file:
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+info	cpufreqd_acpi_battery.c	/^static struct battery_info info[8];$/;"	v	typeref:struct:battery_info	file:
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+init_configuration	config_parser.c	/^int init_configuration(struct cpufreqd_conf *configuration)$/;"	f
+init_success	cpufreqd_sensors.c	/^static int init_success;$/;"	v	file:
+initialize_plugin	plugin_utils.c	/^int initialize_plugin(struct plugin_obj *cp) {$/;"	f
+insert_tnode	cpufreqd_programs.c	/^static void insert_tnode(TREE **t, const char *c) {$/;"	f	file:
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/parth\/Downloads\/cpufreqd-2.4.1\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+int_handler	main.c	/^static void int_handler(int signo) {$/;"	f	file:
+is_event_pending	cpufreqd_acpi_event.c	/^int is_event_pending(void) {$/;"	f
+is_percentage	cpufreqd_governor_parameters.c	/^	short int is_percentage;$/;"	m	struct:gov_parameter	file:
+is_present	cpufreqd_acpi_battery.c	/^	int is_present;$/;"	m	struct:battery_info	file:
+kernel_version	cpufreqd_cpu.c	/^static unsigned int kernel_version;$/;"	v	file:
+kernel_version	cpufreqd_plugin.h	/^	unsigned int kernel_version;$/;"	m	struct:cpufreqd_info
+keyword	config_parser.h	/^	struct cpufreqd_keyword *keyword;$/;"	m	struct:directive	typeref:struct:directive::cpufreqd_keyword
+keywords	cpufreqd_plugin.h	/^	struct cpufreqd_keyword *keywords;$/;"	m	struct:cpufreqd_plugin	typeref:struct:cpufreqd_plugin::cpufreqd_keyword
+kw	cpufreqd_acpi.c	/^static struct cpufreqd_keyword kw[] = {$/;"	v	typeref:struct:cpufreqd_keyword	file:
+kw	cpufreqd_apm.c	/^static struct cpufreqd_keyword kw[] = {$/;"	v	typeref:struct:cpufreqd_keyword	file:
+kw	cpufreqd_cpu.c	/^static struct cpufreqd_keyword kw[] = {$/;"	v	typeref:struct:cpufreqd_keyword	file:
+kw	cpufreqd_exec.c	/^static struct cpufreqd_keyword kw[] =  {$/;"	v	typeref:struct:cpufreqd_keyword	file:
+kw	cpufreqd_governor_parameters.c	/^static struct cpufreqd_keyword kw[] = {$/;"	v	typeref:struct:cpufreqd_keyword	file:
+kw	cpufreqd_nforce2.c	/^static struct cpufreqd_keyword kw[] = {$/;"	v	typeref:struct:cpufreqd_keyword	file:
+kw	cpufreqd_nvclock.c	/^static struct cpufreqd_keyword kw[] = {$/;"	v	typeref:struct:cpufreqd_keyword	file:
+kw	cpufreqd_pmu.c	/^static struct cpufreqd_keyword kw[] = {$/;"	v	typeref:struct:cpufreqd_keyword	file:
+kw	cpufreqd_programs.c	/^static struct cpufreqd_keyword kw[] = {$/;"	v	typeref:struct:cpufreqd_keyword	file:
+kw	cpufreqd_sensors.c	/^static struct cpufreqd_keyword kw[] = {$/;"	v	typeref:struct:cpufreqd_keyword	file:
+kw	cpufreqd_tau.c	/^static struct cpufreqd_keyword kw[] = {$/;"	v	typeref:struct:cpufreqd_keyword	file:
+kw	cpufreqd_train.c	/^static struct cpufreqd_keyword kw[] = {$/;"	v	typeref:struct:cpufreqd_keyword	file:
+last	list.h	/^	struct NODE *last;$/;"	m	struct:LIST	typeref:struct:LIST::NODE
+left	cpufreqd_programs.c	/^	struct TNODE *left;$/;"	m	struct:TNODE	typeref:struct:TNODE::TNODE	file:
+level	cpufreqd_acpi_battery.c	/^	int level; \/* computed percentage *\/$/;"	m	struct:battery_info	file:
+lib_LTLIBRARIES	Makefile	/^lib_LTLIBRARIES = $(BUILD_PLUGINS)$/;"	m
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+library	plugin_utils.h	/^	void *library;$/;"	m	struct:plugin_obj
+limit_vcore	cpufreqd_nforce2.c	/^static int limit_vcore(int read_vcore)$/;"	f	file:
+limits	cpufreqd_plugin.h	/^	struct cpufreq_limits *limits;$/;"	m	struct:cpufreqd_info	typeref:struct:cpufreqd_info::cpufreq_limits
+list_append	list.c	/^void list_append(struct LIST *l, struct NODE *n) {$/;"	f
+list_free_sublist	list.c	/^int list_free_sublist(struct LIST *l, struct NODE *n) {$/;"	f
+list_new	list.c	/^struct LIST *list_new(void) {$/;"	f
+list_remove_node	list.c	/^struct NODE *list_remove_node(struct LIST *l, struct NODE *nd) {$/;"	f
+load_plugin	plugin_utils.c	/^int load_plugin(struct plugin_obj *cp) {$/;"	f
+load_plugin_list	plugin_utils.c	/^void load_plugin_list(struct LIST *plugins) {$/;"	f
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+log_level	config_parser.h	/^	int log_level;$/;"	m	struct:cpufreqd_conf
+log_level_overridden	config_parser.h	/^	unsigned int log_level_overridden;$/;"	m	struct:cpufreqd_conf
+log_opened	cpufreqd_log.c	/^static unsigned int log_opened; \/* syslog already opened *\/$/;"	v	file:
+lt_ECHO	Makefile	/^lt_ECHO = echo$/;"	m
+main	main.c	/^int main (int argc, char *argv[]) {$/;"	f
+mains	cpufreqd_acpi_ac.c	/^static struct sysfs_attribute *mains[64];$/;"	v	typeref:struct:sysfs_attribute	file:
+mains_callback	cpufreqd_acpi_ac.c	/^static int mains_callback(struct sysfs_class_device *cdev) {$/;"	f	file:
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+max	cpufreqd_acpi_battery.c	/^	int min, max;$/;"	m	struct:battery_interval	file:
+max	cpufreqd_acpi_temperature.c	/^	int min, max;$/;"	m	struct:temperature_interval	file:
+max	cpufreqd_apm.c	/^	int min, max;$/;"	m	struct:battery_interval	file:
+max	cpufreqd_cpu.c	/^	int max;$/;"	m	struct:cpu_interval	file:
+max	cpufreqd_plugin.h	/^	unsigned long max;$/;"	m	struct:cpufreq_limits
+max	cpufreqd_pmu.c	/^	int min, max;$/;"	m	struct:battery_interval	file:
+max	cpufreqd_sensors.c	/^	double max;$/;"	m	struct:sensor_object	file:
+max	cpufreqd_tau.c	/^	int min, max;$/;"	m	struct:temperature_interval	file:
+max_vcore	cpufreqd_nforce2.c	/^static const int max_vcore = 1850;$/;"	v	file:
+min	cpufreqd_acpi_battery.c	/^	int min, max;$/;"	m	struct:battery_interval	file:
+min	cpufreqd_acpi_temperature.c	/^	int min, max;$/;"	m	struct:temperature_interval	file:
+min	cpufreqd_apm.c	/^	int min, max;$/;"	m	struct:battery_interval	file:
+min	cpufreqd_cpu.c	/^	int min;$/;"	m	struct:cpu_interval	file:
+min	cpufreqd_plugin.h	/^	unsigned long min;$/;"	m	struct:cpufreq_limits
+min	cpufreqd_pmu.c	/^	int min, max;$/;"	m	struct:battery_interval	file:
+min	cpufreqd_sensors.c	/^	double min;$/;"	m	struct:sensor_object	file:
+min	cpufreqd_tau.c	/^	int min, max;$/;"	m	struct:temperature_interval	file:
+min_vcore	cpufreqd_nforce2.c	/^static const int min_vcore = 1200;$/;"	v	file:
+mkdir_p	Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+monitor	cpufreqd_sensors.c	/^	struct sensors_monitor *monitor;$/;"	m	struct:sensor_object	typeref:struct:sensor_object::sensors_monitor	file:
+monitor_list	cpufreqd_sensors.c	/^static struct sensors_monitor *monitor_list;$/;"	v	typeref:struct:sensors_monitor	file:
+name	config_parser.h	/^	char name[MAX_STRING_LEN];$/;"	m	struct:profile
+name	config_parser.h	/^	char name[MAX_STRING_LEN];$/;"	m	struct:rule
+name	cpufreqd_programs.c	/^	char name[PRG_LENGTH];$/;"	m	struct:TNODE	file:
+name	cpufreqd_sensors.c	/^	char name[MAX_STRING_LEN];$/;"	m	struct:sensor_object	file:
+name	plugin_utils.h	/^	char name[256];$/;"	m	struct:plugin_obj
+neglect_node	cpufreqd_programs.c	/^static void neglect_node(TNODE **n) {$/;"	f	file:
+new_tnode	cpufreqd_programs.c	/^static TNODE * new_tnode(void) {$/;"	f	file:
+next	cpufreqd_acpi_event.c	/^	struct acpi_event *next;$/;"	m	struct:acpi_event	typeref:struct:acpi_event::acpi_event	file:
+next	cpufreqd_cpu.c	/^	struct cpu_interval *next;$/;"	m	struct:cpu_interval	typeref:struct:cpu_interval::cpu_interval	file:
+next	cpufreqd_exec.c	/^	struct exec_cmd *next;$/;"	m	struct:exec_cmd	typeref:struct:exec_cmd::exec_cmd	file:
+next	cpufreqd_sensors.c	/^	struct sensors_monitor *next;$/;"	m	struct:sensors_monitor	typeref:struct:sensors_monitor::sensors_monitor	file:
+next	list.h	/^	struct NODE *next;$/;"	m	struct:NODE	typeref:struct:NODE::NODE
+nforce2	cpufreqd_nforce2.c	/^static struct cpufreqd_plugin nforce2 = {$/;"	v	typeref:struct:cpufreqd_plugin	file:
+nforce2_conf	cpufreqd_nforce2.c	/^static int nforce2_conf(const char *key, const char *value) {$/;"	f	file:
+nforce2_exit	cpufreqd_nforce2.c	/^static int nforce2_exit(void) {$/;"	f	file:
+nforce2_post_conf	cpufreqd_nforce2.c	/^static int nforce2_post_conf(void) {$/;"	f	file:
+nforce2_update	cpufreqd_nforce2.c	/^static int nforce2_update(void) {$/;"	f	file:
+nice_scale	cpufreqd_cpu.c	/^	float nice_scale;$/;"	m	struct:cpu_interval	file:
+no_daemon	config_parser.h	/^	unsigned int no_daemon;$/;"	m	struct:cpufreqd_conf
+node_free	list.c	/^void node_free(struct NODE *n) {$/;"	f
+node_new	list.c	/^struct NODE *node_new(void *cnt, size_t s) {$/;"	f
+noinst_HEADERS	Makefile	/^noinst_HEADERS = \\$/;"	m
+normalize_frequency	cpufreq_utils.c	/^unsigned long normalize_frequency (struct cpufreq_limits *limits,$/;"	f
+number_of_cpus	cpufreqd_governor_parameters.c	/^static unsigned int number_of_cpus = 1;$/;"	v	file:
+numeric_entry	cpufreqd_programs.c	/^static int numeric_entry(const struct dirent *d) {$/;"	f	file:
+nvclock_elem	cpufreqd_nvclock.c	/^struct nvclock_elem {$/;"	s	file:
+nvclock_init	cpufreqd_nvclock.c	/^static int nvclock_init(void) {$/;"	f	file:
+nvclock_parse	cpufreqd_nvclock.c	/^static int nvclock_parse(const char *ev, void **obj) {$/;"	f	file:
+nvclock_plugin	cpufreqd_nvclock.c	/^static struct cpufreqd_plugin nvclock_plugin = {$/;"	v	typeref:struct:cpufreqd_plugin	file:
+nvcore_change	cpufreqd_nvclock.c	/^static void nvcore_change(struct nvclock_elem *nv) {$/;"	f	file:
+nvcore_profile_calls	cpufreqd_nvclock.c	/^int nvcore_profile_calls;$/;"	v
+nvcore_profile_post_change	cpufreqd_nvclock.c	/^static void nvcore_profile_post_change(void *obj,$/;"	f	file:
+nvcore_profile_pre_change	cpufreqd_nvclock.c	/^static void nvcore_profile_pre_change(void __UNUSED__ *obj,$/;"	f	file:
+nvcore_rule_post_change	cpufreqd_nvclock.c	/^static void nvcore_rule_post_change(void *obj,$/;"	f	file:
+nvmem_change	cpufreqd_nvclock.c	/^static void nvmem_change(struct nvclock_elem *nv) {$/;"	f	file:
+nvmem_profile_calls	cpufreqd_nvclock.c	/^int nvmem_profile_calls;$/;"	v
+nvmem_profile_post_change	cpufreqd_nvclock.c	/^static void nvmem_profile_post_change(void *obj,$/;"	f	file:
+nvmem_profile_pre_change	cpufreqd_nvclock.c	/^static void nvmem_profile_pre_change(void __UNUSED__ *obj,$/;"	f	file:
+nvmem_rule_post_change	cpufreqd_nvclock.c	/^static void nvmem_rule_post_change(void *obj,$/;"	f	file:
+obj	config_parser.h	/^	void *obj;$/;"	m	struct:directive
+old_time	cpufreqd_acpi_battery.c	/^static double old_time;$/;"	v	file:
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+open	cpufreqd_acpi_battery.c	/^	int open;$/;"	m	struct:battery_info	file:
+open_acpi_event	cpufreqd_acpi_event.c	/^static int open_acpi_event (void) {$/;"	f	file:
+open_battery	cpufreqd_acpi_battery.c	/^static int open_battery(struct battery_info *binfo) {$/;"	f	file:
+open_governor_device	cpufreqd_governor_parameters.c	/^static struct sysfs_device *open_governor_device(unsigned int cpu, const char *governor)$/;"	f	file:
+open_unix_sock	sock_utils.c	/^int open_unix_sock(const char *dirname, gid_t gid) {$/;"	f
+parameter_name	cpufreqd_governor_parameters.c	/^	char parameter_name[SYSFS_NAME_LEN];$/;"	m	struct:gov_parameter	file:
+parameter_parse	cpufreqd_governor_parameters.c	/^static int parameter_parse(const char *keyword, const char *value, void **obj,$/;"	f	file:
+parameter_value	cpufreqd_governor_parameters.c	/^	long int parameter_value;$/;"	m	struct:gov_parameter	file:
+parent	cpufreqd_programs.c	/^	struct TNODE *parent;$/;"	m	struct:TNODE	typeref:struct:TNODE::TNODE	file:
+parse	cpufreqd_plugin.h	/^	int (*parse) (const char *line, void **obj);$/;"	m	struct:cpufreqd_keyword
+parse_config_general	config_parser.c	/^static int parse_config_general (FILE *config, struct cpufreqd_conf *configuration) {$/;"	f	file:
+parse_config_profile	config_parser.c	/^static int parse_config_profile (FILE *config, struct profile *p, struct LIST *plugins,$/;"	f	file:
+parse_config_rule	config_parser.c	/^static int parse_config_rule (FILE *config, struct rule *r, struct LIST *plugins) {$/;"	f	file:
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+percent_to_absolute	cpufreq_utils.c	/^unsigned long percent_to_absolute(unsigned long max_freq, unsigned long user_freq) {$/;"	f
+pidfile	config_parser.h	/^	char pidfile[MAX_PATH_LEN];$/;"	m	struct:cpufreqd_conf
+pipe_handler	main.c	/^static void pipe_handler(int signo) {$/;"	f	file:
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/cpufreqd$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/cpufreqd$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/cpufreqd$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/cpufreqd$/;"	m
+plugin	config_parser.h	/^	struct cpufreqd_plugin *plugin;$/;"	m	struct:directive	typeref:struct:directive::cpufreqd_plugin
+plugin	cpufreqd_exec.c	/^static struct cpufreqd_plugin plugin =  {$/;"	v	typeref:struct:cpufreqd_plugin	file:
+plugin	plugin_utils.h	/^	struct cpufreqd_plugin *plugin;$/;"	m	struct:plugin_obj	typeref:struct:plugin_obj::cpufreqd_plugin
+plugin_conf	cpufreqd_plugin.h	/^	int (*plugin_conf) (const char *key, const char *value);$/;"	m	struct:cpufreqd_plugin
+plugin_exit	cpufreqd_plugin.h	/^	int (*plugin_exit) (void);$/;"	m	struct:cpufreqd_plugin
+plugin_handle_keyword	plugin_utils.c	/^struct cpufreqd_keyword *plugin_handle_keyword(struct LIST *plugins,$/;"	f
+plugin_handle_section	plugin_utils.c	/^struct plugin_obj *plugin_handle_section(const char *name, struct LIST *plugins) {$/;"	f
+plugin_init	cpufreqd_plugin.h	/^	int (*plugin_init) (void);$/;"	m	struct:cpufreqd_plugin
+plugin_name	cpufreqd_plugin.h	/^	const char *plugin_name;$/;"	m	struct:cpufreqd_plugin
+plugin_obj	plugin_utils.h	/^struct plugin_obj {$/;"	s
+plugin_post_conf	cpufreqd_plugin.h	/^	int (*plugin_post_conf) (void);$/;"	m	struct:cpufreqd_plugin
+plugin_update	cpufreqd_plugin.h	/^	int (*plugin_update) (void);$/;"	m	struct:cpufreqd_plugin
+plugins	config_parser.h	/^	struct LIST plugins; \/* list of configured plugins struct o_plugin *\/$/;"	m	struct:cpufreqd_conf	typeref:struct:cpufreqd_conf::LIST
+plugins_post_conf	plugin_utils.c	/^void plugins_post_conf(struct LIST *plugins) {$/;"	f
+pmu	cpufreqd_pmu.c	/^static struct cpufreqd_plugin pmu = {$/;"	v	typeref:struct:cpufreqd_plugin	file:
+pmu_ac_evaluate	cpufreqd_pmu.c	/^static int pmu_ac_evaluate(const void *s) {$/;"	f	file:
+pmu_ac_parse	cpufreqd_pmu.c	/^static int pmu_ac_parse(const char *ev, void **obj) {$/;"	f	file:
+pmu_bat_evaluate	cpufreqd_pmu.c	/^static int pmu_bat_evaluate(const void *s) {$/;"	f	file:
+pmu_bat_parse	cpufreqd_pmu.c	/^static int pmu_bat_parse(const char *ev, void **obj) {$/;"	f	file:
+pmu_init	cpufreqd_pmu.c	/^static int pmu_init(void) {$/;"	f	file:
+pmu_update	cpufreqd_pmu.c	/^static int pmu_update(void) {$/;"	f	file:
+policy	config_parser.h	/^	struct cpufreq_policy policy;$/;"	m	struct:profile	typeref:struct:profile::cpufreq_policy
+poll_intv	config_parser.h	/^	struct timeval poll_intv;$/;"	m	struct:cpufreqd_conf	typeref:struct:cpufreqd_conf::timeval
+predecessor	cpufreqd_programs.c	/^static TNODE *predecessor(TNODE *n) {$/;"	f	file:
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+preorder_visit	cpufreqd_programs.c	/^static void preorder_visit(TREE *t, void (*cb)(TNODE **n)) {$/;"	f	file:
+present	cpufreqd_acpi_battery.c	/^	struct sysfs_attribute *present;$/;"	m	struct:battery_info	typeref:struct:battery_info::sysfs_attribute	file:
+present_rate	cpufreqd_acpi_battery.c	/^	int present_rate;$/;"	m	struct:battery_info	file:
+prev	list.h	/^	struct NODE *prev;$/;"	m	struct:NODE	typeref:struct:NODE::NODE
+print_help	config_parser.h	/^	unsigned int print_help;$/;"	m	struct:cpufreqd_conf
+print_help	main.c	/^static void print_help(const char *me) {$/;"	f	file:
+print_tree	cpufreqd_programs.c	/^static void print_tree(TNODE *n) {$/;"	f	file:
+print_version	config_parser.h	/^	unsigned int print_version;$/;"	m	struct:cpufreqd_conf
+print_version	main.c	/^static void print_version(const char *me) {$/;"	f	file:
+prof	config_parser.h	/^	struct profile **prof; \/* profiles per CPU *\/$/;"	m	struct:rule	typeref:struct:rule::profile
+profile	config_parser.h	/^struct profile {$/;"	s
+profile_name	config_parser.h	/^	char profile_name[MAX_STRING_LEN]; \/* this is a list actually, eg: "CPU0:prof0;CPU1:prof1" *\/$/;"	m	struct:rule
+profile_post_change	cpufreqd_plugin.h	/^	void (*profile_post_change) (void *obj, const struct cpufreq_policy *old,$/;"	m	struct:cpufreqd_keyword
+profile_post_change_calls	cpufreqd_exec.c	/^static int profile_post_change_calls;$/;"	v	file:
+profile_pre_change	cpufreqd_plugin.h	/^	void (*profile_pre_change) (void *obj, const struct cpufreq_policy *old,$/;"	m	struct:cpufreqd_keyword
+profile_pre_change_calls	cpufreqd_exec.c	/^static int profile_pre_change_calls;$/;"	v	file:
+profiles	config_parser.h	/^	struct LIST profiles; \/* list of configured struct profile *\/$/;"	m	struct:cpufreqd_conf	typeref:struct:cpufreqd_conf::LIST
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+programs	cpufreqd_programs.c	/^static struct cpufreqd_plugin programs = {$/;"	v	typeref:struct:cpufreqd_plugin	file:
+programs_evaluate	cpufreqd_programs.c	/^static int programs_evaluate(const void *s) {$/;"	f	file:
+programs_exit	cpufreqd_programs.c	/^static int programs_exit(void) {$/;"	f	file:
+programs_free	cpufreqd_programs.c	/^static void programs_free(void *obj) {$/;"	f	file:
+programs_parse	cpufreqd_programs.c	/^static int programs_parse(const char *ev, void **obj) {$/;"	f	file:
+programs_update	cpufreqd_programs.c	/^static int programs_update(void) {$/;"	f	file:
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+queue_launcher	cpufreqd_exec.c	/^static void *queue_launcher (void __UNUSED__ *arg) {$/;"	f	file:
+read_args	main.c	/^static int read_args (int argc, char *argv[]) {$/;"	f	file:
+read_battery	cpufreqd_acpi_battery.c	/^static int read_battery(struct battery_info *binfo) {$/;"	f	file:
+read_clean_line	config_parser.c	/^static char *read_clean_line(FILE *fp, char *buf, int n) {$/;"	f	file:
+remaining	cpufreqd_acpi_battery.c	/^	int remaining;$/;"	m	struct:battery_info	file:
+remote_gid	config_parser.h	/^	gid_t remote_gid;$/;"	m	struct:cpufreqd_conf
+reset_event	cpufreqd_acpi_event.c	/^void reset_event(void) {$/;"	f
+right	cpufreqd_programs.c	/^	struct TNODE *right;$/;"	m	struct:TNODE	typeref:struct:TNODE::TNODE	file:
+rule	config_parser.h	/^struct rule {$/;"	s
+rule_post_change	cpufreqd_plugin.h	/^	void (*rule_post_change) (void *obj, const struct rule *old,$/;"	m	struct:cpufreqd_keyword
+rule_pre_change	cpufreqd_plugin.h	/^	void (*rule_pre_change) (void *obj, const struct rule *old,$/;"	m	struct:cpufreqd_keyword
+rule_score	main.c	/^static unsigned int rule_score(struct rule *rule) {$/;"	f	file:
+rules	config_parser.h	/^	struct LIST rules; \/* list of configured struct rule *\/$/;"	m	struct:cpufreqd_conf	typeref:struct:cpufreqd_conf::LIST
+running_programs	cpufreqd_programs.c	/^static TREE *running_programs = 0L;$/;"	v	file:
+sampling_down_factor_parse	cpufreqd_governor_parameters.c	/^static int sampling_down_factor_parse(const char *value, void **obj)$/;"	f	file:
+sampling_rate_parse	cpufreqd_governor_parameters.c	/^static int sampling_rate_parse(const char *value, void **obj)$/;"	f	file:
+sbin_PROGRAMS	Makefile	/^sbin_PROGRAMS = cpufreqd$(EXEEXT)$/;"	m
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+score	config_parser.h	/^	unsigned int score;$/;"	m	struct:rule
+sensor_evaluate	cpufreqd_sensors.c	/^static int sensor_evaluate(const void *s) {$/;"	f	file:
+sensor_object	cpufreqd_sensors.c	/^struct sensor_object {$/;"	s	file:
+sensor_parse	cpufreqd_sensors.c	/^static int sensor_parse(const char *ev, void **obj) {$/;"	f	file:
+sensors_conf	cpufreqd_sensors.c	/^static int sensors_conf(const char *key, const char *value) {$/;"	f	file:
+sensors_conffile	cpufreqd_sensors.c	/^static char sensors_conffile[MAX_PATH_LEN];$/;"	v	file:
+sensors_exit	cpufreqd_sensors.c	/^static int sensors_exit(void) {$/;"	f	file:
+sensors_feature	cpufreqd_sensors.c	/^typedef sensors_feature_data sensors_feature;$/;"	t	file:
+sensors_get	cpufreqd_sensors.c	/^static int sensors_get(void) {$/;"	f	file:
+sensors_get_chip_name	cpufreqd_sensors.c	/^static const char* sensors_get_chip_name(const sensors_chip_name *chip) {$/;"	f	file:
+sensors_monitor	cpufreqd_sensors.c	/^struct sensors_monitor {$/;"	s	file:
+sensors_plugin	cpufreqd_sensors.c	/^static struct cpufreqd_plugin sensors_plugin = {$/;"	v	typeref:struct:cpufreqd_plugin	file:
+sensors_post_conf	cpufreqd_sensors.c	/^static int sensors_post_conf(void) {$/;"	f	file:
+sensors_snprintf_chip_name	cpufreqd_sensors.c	/^static int sensors_snprintf_chip_name(char *str, size_t size,$/;"	f	file:
+set_cpufreqd_runmode	main.c	/^static int set_cpufreqd_runmode(int mode) {$/;"	f	file:
+set_parameter	cpufreqd_governor_parameters.c	/^static void set_parameter(const unsigned int cpu, const char *governor,$/;"	f	file:
+set_vcore	cpufreqd_nforce2.c	/^static inline void set_vcore(int vcore)$/;"	f	file:
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+srcdir	Makefile	/^srcdir = .$/;"	m
+status	cpufreqd_acpi_battery.c	/^	struct sysfs_attribute *status;$/;"	m	struct:battery_info	typeref:struct:battery_info::sysfs_attribute	file:
+strip_comments_line	config_parser.c	/^static char *strip_comments_line (char *str) {$/;"	f	file:
+sub_feat	cpufreqd_sensors.c	/^	const sensors_subfeature *sub_feat;$/;"	m	struct:sensors_monitor	file:
+subdir	Makefile	/^subdir = src$/;"	m
+supported_governors	cpufreqd_governor_parameters.c	/^static const char *supported_governors[] = {$/;"	v	file:
+sweep_unused_node	cpufreqd_programs.c	/^static void sweep_unused_node(TNODE **n) {$/;"	f	file:
+sys_info	cpufreqd_plugin.h	/^	struct cpufreq_sys_info *sys_info;$/;"	m	struct:cpufreqd_info	typeref:struct:cpufreqd_info::cpufreq_sys_info
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+syspath_cpu	cpufreqd_governor_parameters.c	/^static char syspath_cpu[SYSFS_PATH_MAX];$/;"	v	file:
+tag	cpufreqd_pmu.c	/^static char tag[255];$/;"	v	file:
+tag	cpufreqd_tau.c	/^static char tag[255];$/;"	v	file:
+target	Makefile	/^target = x86_64-unknown-linux-gnu$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+target_cpu	Makefile	/^target_cpu = x86_64$/;"	m
+target_os	Makefile	/^target_os = linux-gnu$/;"	m
+target_triplet	Makefile	/^target_triplet = x86_64-unknown-linux-gnu$/;"	m
+target_vendor	Makefile	/^target_vendor = unknown$/;"	m
+tau	cpufreqd_tau.c	/^static struct cpufreqd_plugin tau = {$/;"	v	typeref:struct:cpufreqd_plugin	file:
+tau_evaluate	cpufreqd_tau.c	/^static int tau_evaluate(const void *s) {$/;"	f	file:
+tau_init	cpufreqd_tau.c	/^static int tau_init(void) {$/;"	f	file:
+tau_parse	cpufreqd_tau.c	/^static int tau_parse(const char *ev, void **obj) {$/;"	f	file:
+tau_temperature	cpufreqd_tau.c	/^struct temperature_interval tau_temperature;$/;"	v	typeref:struct:temperature_interval
+tau_update	cpufreqd_tau.c	/^static int tau_update(void) {$/;"	f	file:
+temp	cpufreqd_acpi_temperature.c	/^	struct sysfs_attribute *temp;$/;"	m	struct:thermal_zone	typeref:struct:thermal_zone::sysfs_attribute	file:
+temp_avg	cpufreqd_acpi_temperature.c	/^static long int temp_avg;$/;"	v	file:
+temperature	cpufreqd_acpi_temperature.c	/^	int temperature;$/;"	m	struct:thermal_zone	file:
+temperature_interval	cpufreqd_acpi_temperature.c	/^struct temperature_interval {$/;"	s	file:
+temperature_interval	cpufreqd_tau.c	/^struct temperature_interval {$/;"	s	file:
+term_handler	main.c	/^static void term_handler(int signo) {$/;"	f	file:
+thermal_zone	cpufreqd_acpi_temperature.c	/^struct thermal_zone {$/;"	s	file:
+timer_expired	main.c	/^static int timer_expired = 1; \/* expired in order to run on the first loop *\/$/;"	v	file:
+timestamp	cpufreqd_plugin.h	/^	struct timeval timestamp;$/;"	m	struct:cpufreqd_info	typeref:struct:cpufreqd_info::timeval
+tokenize	cpufreqd_pmu.c	/^static int tokenize (FILE *fp, char *t, char *v) {$/;"	f	file:
+tokenize	cpufreqd_tau.c	/^static int tokenize (FILE *fp, char *t, char *v) {$/;"	f	file:
+top_build_prefix	Makefile	/^top_build_prefix = ..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = ..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..$/;"	m
+train	cpufreqd_train.c	/^static struct cpufreqd_plugin train = {$/;"	v	typeref:struct:cpufreqd_plugin	file:
+train_exit	cpufreqd_train.c	/^static int train_exit (void) {$/;"	f	file:
+train_init	cpufreqd_train.c	/^static int train_init (void) {$/;"	f	file:
+train_update	cpufreqd_train.c	/^static int train_update(void) {$/;"	f	file:
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+type	cpufreqd_acpi_event.c	/^	unsigned int type;$/;"	m	struct:acpi_event	file:
+tz	cpufreqd_acpi_temperature.c	/^	struct thermal_zone *tz;$/;"	m	struct:temperature_interval	typeref:struct:temperature_interval::thermal_zone	file:
+up_threshold_parse	cpufreqd_governor_parameters.c	/^static int up_threshold_parse(const char *value, void **obj)$/;"	f	file:
+update_plugin_states	plugin_utils.c	/^void update_plugin_states(struct LIST *plugins) {$/;"	f
+update_rule_scores	main.c	/^static struct rule *update_rule_scores(struct LIST *rule_list) {$/;"	f	file:
+used	cpufreqd_programs.c	/^	unsigned short used;$/;"	m	struct:TNODE	file:
+used	plugin_utils.h	/^	unsigned int used;		\/* track if the plugin is used$/;"	m	struct:plugin_obj
+val	cpufreqd_pmu.c	/^static char val[255];$/;"	v	file:
+val	cpufreqd_tau.c	/^static char val[255];$/;"	v	file:
+validate_feature_name	cpufreqd_sensors.c	/^static struct sensors_monitor * validate_feature_name(const char *name) {$/;"	f	file:
+validate_plugins	plugin_utils.c	/^int validate_plugins(struct LIST *plugins) {$/;"	f
+value	cpufreqd_nvclock.c	/^	unsigned int value; \/* used for gpu and mem clock *\/$/;"	m	struct:nvclock_elem	file:
+value	cpufreqd_sensors.c	/^	double value;$/;"	m	struct:sensors_monitor	file:
+vcore_default	cpufreqd_nforce2.c	/^static int vcore_default;$/;"	v	file:
+vcore_parse	cpufreqd_nforce2.c	/^static int vcore_parse(const char *ev, void **obj) {$/;"	f	file:
+vcore_path	cpufreqd_nforce2.c	/^static char vcore_path[MAX_PATH_LEN];$/;"	v	file:
+vcore_post_change	cpufreqd_nforce2.c	/^static void vcore_post_change(void *obj,$/;"	f	file:
+vcore_pre_change	cpufreqd_nforce2.c	/^static void vcore_pre_change(void *obj,$/;"	f	file:
+vcore_profile_calls	cpufreqd_nforce2.c	/^int vcore_profile_calls;$/;"	v
+version	cpufreqd_pmu.c	/^static char version[100];$/;"	v	file:
+wake_cpufreqd	cpufreqd_plugin.h	41;"	d
+watch_ac	cpufreqd_acpi.h	/^	int watch_ac;$/;"	m	struct:acpi_configuration
+watch_battery	cpufreqd_acpi.h	/^	int watch_battery;$/;"	m	struct:acpi_configuration
+watch_event	cpufreqd_acpi.h	/^	int watch_event;$/;"	m	struct:acpi_configuration
+watch_temperature	cpufreqd_acpi.h	/^	int watch_temperature;$/;"	m	struct:acpi_configuration
+word	cpufreqd_plugin.h	/^	const char *word;$/;"	m	struct:cpufreqd_keyword
+write_cpufreqd_pid	daemon_utils.c	/^int write_cpufreqd_pid(const char *pidfile)$/;"	f
